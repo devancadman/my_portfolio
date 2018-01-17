@@ -6,13 +6,17 @@ body {
     color: black;
 }
 
+.link-transition a {
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
 h1, h2 {
   font-family:  'sans-serif';
   letter-spacing: 0.5px;
   font-size: 3em;
 }
 
-h2 {
+h2, .hr {
   padding-bottom: 20px;
   border-bottom: solid 6px #F18F01;
   width: 60%;
@@ -28,6 +32,7 @@ h3{
 
 p {
   font-size: 1.8em;
+  float: center;  
 }
 
 .navbar {
@@ -96,6 +101,48 @@ p {
     }
 }
 
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(4,99,128);
+    background: rgba(4, 99, 128, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: absolute;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 100;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(241,143,1, 0.9);
+}
+#return-to-top:hover i {
+    color: FFF;
+    top: 5px;
+}
+
 .navbar-brand,
 #hi,
 #intro, 
@@ -116,7 +163,7 @@ p {
 }
 
 .bg {
-    background: url("i4center.comsiteimagesbgimage.jpg") no-repeat center center;
+    background: url("https://wtkl5w-dm2305.files.1drv.com/y4m8wVpWO1aSp-d_lEqtHAQkL7uXyK5OghKg6MHC-6S43h5Gsn6kqrDvhc0dnC52lLFjUL8f1gWBS7oAGtLQTW6I9y75tOdmxyCnAdHnysZ0PnGs9lwLwG8F9_QE4K3rfADHUSceR00c54i6kfCKFDn8Dt3MbFvIccIGc1hHRH_s14CGCiBlYUKYVHNSnCgc3cUpyqOQr-tdHaaYnF8ksAlmw?width=1366&height=768&cropmode=none") no-repeat center center;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -136,32 +183,45 @@ p {
 .img-center {
     margin: 0 auto;
 }
+.img-size {
+  width: 300px;
+  height: 300px;
+}
 
  .thin-blue-border {
     border-color: #1F4180;
-    border-width: 10px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 50%;
   }
 
 .embed-head {
-  padding-top: 100px;}
+  padding-top: 100px;
+}
 
 #about {
-  margin-top: 0px;
+  margin: 0px;
+}
+.about{
+  display: block;
+  margin: 12px;
 }
 
 #moreinfo {
     background-color: #f18f01;
-    padding: 12px 40px;
-    color: white;
-    border: 1px solid #fff;
+    padding: 12px 40px;
+    font-family: Black Ops One;  
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #fff;
     font-weight: lighter;
     text-transform: uppercase;
 }
+
 .btn .btn-primary {
-    color: #fff;
-    background-color: #f18f01;
+  font-weight: bold;
+  Color: #fff;
+  background-color: #f18f01;
     -webkit-border-radius: 4px;
     -webkit-background-clip: padding-box;
     -moz-border-radius: 4px;
@@ -169,6 +229,7 @@ p {
     border-radius: 4px;
     background-clip: padding-box;
 }
+
 #moreinfo:hover,
 #moreinfo:focus {
     background-color: #428bca; 
@@ -176,15 +237,116 @@ p {
 }
 
 #portfolio {
-  background: transparent;
-  background: url("i4center.comsiteimagesbgimage.jpg") no-repeat center center;
+  background: #011A27;
   color: white;
+}
+/*CSS for gallery image */
+.gallery {
+  font-family: 'Lato', Arial, sans-serif;
+  width:350px; 
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  float: left; 
+  margin: 12px;
+
+  min-width: 270px;
+  max-width: 410px;
+  min-height: 270px;
+  max-height: 410px;
+  
+  background-color: #011A27;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.gallery * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery img {
+  max-width: 100%;
+  vertical-align: top;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery figcaption {
+  float: center;
+  position: absolute;
+  height: 75px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgba(1, 26, 40, 0.95);
+}
+
+.gallery h3 {
+  font-family: 'Black Ops One', 
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #F18F01;
+}
+
+.gallery h5 {
+  font-family: 'Aclonica';
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  color: #0576b3;
+  letter-spacing: 1px;
+}
+
+.gallery a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+.gallery:hover figcaption,
+.gallery.hover figcaption {
+  height: calc(85%);
+}
+
+.gallery p {
+  font-size: 15px;
+  padding: 10px;
+  font-family: 'Aclonica';
+  color: #fff;
+}
+/*end*/
+
+#contact {
+  background: transparent;  
+  color: #fff;
 }
 
 #submit {
+  font-weight: bold;
+  letter-spacing: 2px;
   background-color: #F18F01;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.8em;
+}
+#submit:hover,
+#submit:focus {
+    background-color: #428bca; 
+    color: #fea627;
 }
 
 section {
@@ -199,7 +361,7 @@ section {
 
 input, textarea {
 	padding: 10px;
-	border: 1px solid #E5E5E5;
+	border: 1px solid blue;
 	width: 200px;
 	color: #999999;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
@@ -230,7 +392,7 @@ input:focus, textarea:focus {
 .submit input {
 	width: 100px; 
 	height: 40px;
-	background-color: #474E69; 
+	background-color: red; 
 	color: #FFF;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -238,7 +400,7 @@ input:focus, textarea:focus {
 }
 
 	#footer {
-		padding: 2em 0 1em 0 ;
+		padding: 1em 0 1em 0 ;
 		background-color: #011A27;
 		text-align: center;
 	}
@@ -263,12 +425,37 @@ input:focus, textarea:focus {
           font-size: 1.25em;
         }
 
-		#footer .copyright {
-			float: center;
-      color: #fff;
-			font-size: 1.25em;
-			letter-spacing: 0.2em;
-			list-style: none;
-			padding: 0;
-			text-transform: uppercase;
-		}
+#coded{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+  color: #fff;
+	float: center;
+	font-size: 1.25em;
+	letter-spacing: 0.2em;
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#coded .fa-heart{
+	color: #f75a56;
+}
+
+#coded .fa-coffee{
+	color: rgb(208, 158, 123);
+}
+
+#copyright{
+  margin-top: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	float: center;
+  color: #fff;
+  font-size: 1.25em;
+  letter-spacing: 0.2em;
+	list-style: none;
+	padding: 0;
+	text-transform: uppercase;
+}
+
