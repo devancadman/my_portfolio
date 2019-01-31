@@ -183,10 +183,6 @@ p {
 .img-center {
     margin: 0 auto;
 }
-.img-size {
-  width: 300px;
-  height: 300px;
-}
 
  .thin-blue-border {
     border-color: #1F4180;
@@ -233,7 +229,7 @@ p {
 #moreinfo:hover,
 #moreinfo:focus {
     background-color: #428bca; 
-    color: #fea627;
+    color: #fff;
 }
 
 #portfolio {
@@ -243,7 +239,7 @@ p {
 /*CSS for gallery image */
 .gallery {
   font-family: 'Lato', Arial, sans-serif;
-  width:350px; 
+  width:auto; 
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -284,7 +280,7 @@ p {
   left: 15px;
   right: 15px;
   bottom: 15px;
-  overflow: hidden;
+  overflow: auto;
   padding: 15px;
   background-color: rgba(1, 26, 40, 0.95);
 }
@@ -334,6 +330,11 @@ p {
 #contact {
   background: transparent;  
   color: #fff;
+}
+
+.img-size {
+  width: 300px;
+  height: 300px;
 }
 
 #submit {
@@ -459,3 +460,6 @@ input:focus, textarea:focus {
 	text-transform: uppercase;
 }
 
+.icon {
+  font-size: 25px;
+}
