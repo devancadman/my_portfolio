@@ -92,7 +92,7 @@ p {
 }
 
 @media (max-width: 767px) {
-    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: rgba(174, 117, 159, 1);
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
@@ -154,12 +154,12 @@ p {
     font-size: 1.8em;
 }
 
-.rwd-line { 
+.rwd-line{ 
     display: block; 
 }
 
- @media screen and (min-width: 768px){
-   .rwd-line { display: inline; }
+ @media (min-width: 768px){
+   .rwd-line{ display: inline;}
 }
 
 .bg {
@@ -347,7 +347,7 @@ p {
 #submit:hover,
 #submit:focus {
     background-color: #428bca; 
-    color: #fea627;
+    color: #fff;
 }
 
 section {
@@ -415,7 +415,8 @@ input:focus, textarea:focus {
 			}
 
 				#footer .icons a:hover {
-					color: #F18F01;
+					text-decoration: none;
+          color: #F18F01;
 				}
         
         #footer .icons li {
