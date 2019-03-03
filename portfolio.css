@@ -16,7 +16,8 @@ h1, h2 {
   font-size: 3em;
 }
 
-h2, .hr {
+.hr {
+  font-family: Black Ops One; 
   padding-bottom: 20px;
   border-bottom: solid 6px #F18F01;
   width: 60%;
@@ -205,7 +206,6 @@ p {
 #moreinfo {
     background-color: #f18f01;
     padding: 12px 40px;
-    font-family: Black Ops One;  
     font-weight: bold;
     color: #fff;
     border: 1px solid #fff;
