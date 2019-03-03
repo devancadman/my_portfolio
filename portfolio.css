@@ -32,7 +32,7 @@ h3{
 
 p {
   font-size: 1.8em;
-  float: center;  
+  text-align: center;  
 }
 
 .navbar {
@@ -114,7 +114,6 @@ p {
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
-    display: absolute;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -139,7 +138,7 @@ p {
     background: rgba(241,143,1, 0.9);
 }
 #return-to-top:hover i {
-    color: FFF;
+    color: #ffffff;
     top: 5px;
 }
 
@@ -274,7 +273,7 @@ p {
 }
 
 .gallery figcaption {
-  float: center;
+  text-align: center;
   position: absolute;
   height: 75px;
   left: 15px;
@@ -286,7 +285,7 @@ p {
 }
 
 .gallery h3 {
-  font-family: 'Black Ops One', 
+  font-family: 'Black Ops One'; 
   text-transform: uppercase;
   font-size: 21px;
   font-weight: 400;
@@ -420,7 +419,7 @@ input:focus, textarea:focus {
 				}
         
         #footer .icons li {
-          float: center;
+          text-align: center;
           position: relative;
           display: inline-block;
           padding-left: 0.8em;
@@ -432,7 +431,7 @@ input:focus, textarea:focus {
 	text-align: center;
 	margin-bottom: 10px;
   color: #fff;
-	float: center;
+	text-align: center;
 	font-size: 1.25em;
 	letter-spacing: 0.2em;
 	list-style: none;
@@ -452,7 +451,7 @@ input:focus, textarea:focus {
   margin-top: 20px;
 	text-align: center;
 	margin-bottom: 10px;
-	float: center;
+	text-align: center;
   color: #fff;
   font-size: 1.25em;
   letter-spacing: 0.2em;
