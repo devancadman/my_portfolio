@@ -16,7 +16,7 @@ h1, h2 {
   font-size: 3em;
 }
 
-.hr {
+.special-font, .hr {
   font-family: Black Ops One; 
   padding-bottom: 20px;
   border-bottom: solid 6px #F18F01;
@@ -28,7 +28,7 @@ h3{
   font-family: Black Ops One; 
   font-weight: bold;
   letter-spacing: 0.5px;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 p {
