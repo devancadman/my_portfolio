@@ -3,7 +3,7 @@ body {
     position: relative; 
     font-family: 'Sans Serif';
     font-weight: 400;
-    color: black;
+    color: #000000;
 }
 
 .link-transition a {
@@ -151,7 +151,7 @@ p {
 #hi,
 #intro, 
 .special-font {
- font-family: 'Aclonica';
+ font-family: 'Black Ops One';
 }
 
 .navbar-brand {
