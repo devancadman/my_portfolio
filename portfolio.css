@@ -51,7 +51,7 @@ p {
 }
 
 .navbar-default .navbar-brand {
-    color: white;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -62,12 +62,12 @@ p {
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
-  color: white;
+  color: #ffffff;
   background-color: #F18F01;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #ffffff;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -85,7 +85,7 @@ p {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .navbar-default .navbar-toggle {
@@ -183,7 +183,7 @@ p {
 .jumbotron {
     min-height: 600px;
     width: 100%;
-    color: white;
+    color: #ffffff;
     text-shadow: #444 0 1px 1px;
     background: transparent;
 }
@@ -223,9 +223,9 @@ p {
 }
 
 .btn .btn-primary {
-  font-weight: bold;
-  Color: #fff;
-  background-color: #f18f01;
+    font-weight: bold;
+    Color: #fff;
+    background-color: #f18f01;
     -webkit-border-radius: 4px;
     -webkit-background-clip: padding-box;
     -moz-border-radius: 4px;
@@ -242,7 +242,7 @@ p {
 
 #portfolio {
   background: #011A27;
-  color: white;
+  color: #ffffff;
 }
 
 /*CSS for gallery image */
@@ -390,21 +390,6 @@ input:focus, textarea:focus {
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
-}
-
-.form label {
-	margin-left: 10px;
-	color: #999999;
-}
-
-.submit input {
-	width: 100px; 
-	height: 40px;
-	background-color: red; 
-	color: #FFF;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;		
 }
 
 #footer {
