@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;    
     position: relative; 
     font-family: Ariel Sans Serif, 'Sans Serif Unicode';
     font-weight: 400;
