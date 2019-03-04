@@ -370,9 +370,9 @@ input, textarea {
 }
 
 textarea {
-	width: 400px;
+	width: 550px;
 	height: 150px;
-	max-width: 400px;
+	max-width: 550px;
 	line-height: 18px;
 }
 
