@@ -156,10 +156,12 @@ p {
 
 .navbar-brand {
     font-size: 1.8em;
+    letter-spacing: 2px;
 }
 
 .rwd-line{ 
-    display: block; 
+    display: block;
+    line-height: 1em; 
 }
 
  @media (min-width: 768px){
