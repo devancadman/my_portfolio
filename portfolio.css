@@ -195,7 +195,7 @@ p {
 }
 
  .thin-blue-border {
-    border-color: #1F4180;
+    border-color: #011A27;
     border-width: 5px;
     border-style: solid;
     border-radius: 50%;
@@ -237,7 +237,7 @@ p {
 
 #moreinfo:hover,
 #moreinfo:focus {
-    background-color: #428bca; 
+    background-color: #011A27; 
     color: #fff;
 }
 
@@ -354,7 +354,7 @@ p {
 
 #submit:hover,
 #submit:focus {
-    background-color: #428bca; 
+    background-color: #011A27; 
     color: #fff;
 }
 
