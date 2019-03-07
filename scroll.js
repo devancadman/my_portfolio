@@ -27,7 +27,7 @@ $(window).scroll(function() {
 });
 $('#return-to-top').click(function() {      // When arrow is clicked
     $('body,html').animate({
-        scrollTop : 0 }, 100);              // Scroll to top of body   
+        scrollTop : 0 }, 1000);              // Scroll to top of body   
 });
 
 // ===== Copyright Year =====
